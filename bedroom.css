@@ -1,0 +1,26 @@
+::-webkit-scrollbar {
+    width: 15px;
+    background-color: black;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgb(255, 225, 0);
+  }
+
+  h2 {
+      background-color: rgb(255, 225, 0); 
+      width: fit-content;
+      padding-left:30px;
+      padding-right: 30px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-family: 'Jomhuria', cursive;
+      font-size: 41px;
+      color: black;
+      padding-top: 10px;
+      margin-left: 30px
+  }
+  ::selection {
+    color: white;
+    background-color:rgb(255, 225, 0);
+  }
